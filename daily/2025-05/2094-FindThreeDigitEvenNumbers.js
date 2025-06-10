@@ -6,8 +6,7 @@
 // For example, if the given digits were [1, 2, 3], integers 132 and 312 follow the requirements.
 // Return a sorted array of the unique integers.
 
-// #enumeration
-// #array
+// Tags : #enumeration, #array
 /**
  * @param {number[]} digits
  * @return {number[]}

@@ -8,7 +8,7 @@
  * @param {number[]} nums2
  * @return {number}
  */
-var minSum = function(nums1, nums2) {
+const minSum = function(nums1, nums2) {
     let sum1 = 0, sum2 = 0;
     let zeroCount1 = 0, zeroCount2 = 0;
 

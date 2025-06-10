@@ -3,7 +3,7 @@
  * @param {number[]} groups
  * @return {string[]}
  */
-var getWordsInLongestSubsequence = function(words, groups) {
+const getWordsInLongestSubsequence = function(words, groups) {
     const n = groups.length;
     const dp = new Array(n).fill(1);
     const prev = new Array(n).fill(-1);

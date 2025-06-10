@@ -4,7 +4,7 @@
  * @return {string[]}
  */
 
-// Approach 1 : DP
+// Approach 1 : #DP
 const getLongestSubsequence = function(words, groups) {
     let result = [words[0]];
     let length = groups.length;
@@ -23,7 +23,7 @@ const getLongestSubsequence = function(words, groups) {
     return result;
 };
 
-// Approach 2 : Greedy
+// Approach 2 : #Greedy
 const getLongestSubsequence2 = function(words, groups) {
     let result = [words[0]];
     for (let i = 1; i < groups.length; i++) {
